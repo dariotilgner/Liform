@@ -1,5 +1,5 @@
 {
-  "name": "limenius/liform",
+  "name": "dariotilgner/liform",
   "description": "Library to transform Symfony Forms into Json Schema",
   "type": "library",
   "license": "MIT",
@@ -35,5 +35,8 @@
   "scripts": {
     "test": "phpunit",
     "cs": "phpcs"
+  },
+  "replace": {
+    "limenius/liform": "*"
   }
 }
